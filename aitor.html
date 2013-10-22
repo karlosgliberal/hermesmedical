@@ -20,11 +20,10 @@
 	<div id="slide1">
 		<div class="row">
 			<div class="large-12 columns">
-				<h2 id="fade-it">Esto es un h2 con fade</h2>
-				<h2 id="fade-it">Esto es un h2</h2>
+				<h1 id="fade-it45">Esto es un h2</h1>
 			</div>
 			<div class="large-12 columns">
-				<h2 id="scale-it">Yo me hago grande</h2>
+			<h1>Soy un h1 y no hago nada</h1>
 			</div>
 		</div>
 	</div>
@@ -33,12 +32,18 @@
 	<div id="slide2">
 		<div class="row">
 			<div class="large-6 columns">
-				<h2 id="fade-it2">Esto es un fade it</h2>
+				<h2 id="fade-it4">Texto 1</h2>
+				<h2 id="fade-it5">texto 2</h2>
+				<h2 id="fade-it6">texto 3</h2>
+
 			</div>
 			<div class="large-6 columns">
-				<h2 id="fade-it3">Esto es un fade it</h2>
+				<h2 id="fade-it3">Oh sorpresa!!!</h2>
+				<p class="texto-fade">Lorem ipsun <p>
 			</div>
 		</div>
+	</div>
+	<div id="slide3">
 	</div>
 
 
@@ -61,6 +66,10 @@
 			controller.addTween('#fade-it', TweenMax.from( $('#fade-it'), .5, {css:{opacity: 0}}));
 			controller.addTween('#fade-it2', TweenMax.from( $('#fade-it2'), .5, {css:{opacity: 0}}));
 			controller.addTween('#fade-it3', TweenMax.from( $('#fade-it3'), .5, {css:{opacity: 0}}));
+			controller.addTween('#fade-it4', TweenMax.from( $('#fade-it4'), .5, {css:{opacity: 0.1}}));
+			controller.addTween('#fade-it5', TweenMax.from( $('#fade-it5'), .5, {css:{opacity: 0.2}}));
+			controller.addTween('#fade-it6', TweenMax.from( $('#fade-it6'), .5, {css:{opacity: 0.3}}));
+			controller.addTween('.texto-fade', TweenMax.from( $('.texto-fade'), .5, {css:{opacity: 0}}));
 			controller.addTween('#fly-it', TweenMax.from( $('#fly-it'), .25, {css:{right:'1000px'}, ease:Quad.easeInOut}));
 			controller.addTween('#spin-it', TweenMax.from( $('#spin-it'), .25, {css:{opacity:0, rotation: 720}, ease:Quad.easeOut}));
 			controller.addTween('#scale-it', TweenMax.fromTo( $('#scale-it'), .25, {css:{opacity:0, fontSize:'10px'}, immediateRender:true, ease:Quad.easeInOut}, {css:{opacity:1, fontSize:'240px'}, ease:Quad.easeInOut}));

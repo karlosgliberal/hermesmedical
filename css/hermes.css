@@ -9,7 +9,19 @@ min-height: 700px;
 min-height: 700px;
 }
 
+#slide3 {
+	min-height: 700px;
+	background-color: #888888;
+}
 
 h2 {
 	color: #fff;
+}
+
+p {
+	color: #ccc;
+}
+
+#slide1 h1 {
+	text-align: center;
 }
