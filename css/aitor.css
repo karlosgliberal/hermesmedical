@@ -1,0 +1,147 @@
+
+#uno { 
+  background: url("../img/uno.jpg") center no-repeat; 
+  min-height: 1000px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+  background-size: cover;
+}
+ 
+#uno article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}
+ 
+#primavera { 
+  background: url("../img/dos.jpg") 50% 0 no-repeat fixed; min-height: 500px; 
+  height: 500px; 
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  background-size: cover;
+}
+ 
+#primavera article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}
+
+#verano { 
+  background: url("../img/verano.jpg") 50% 0 no-repeat fixed; 
+  background-size: cover;
+  min-height: 500px; 
+  height: 500px; 
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+
+}
+ 
+#verano article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}
+
+
+#otono { 
+  background: url("../img/dos.jpg") 50% 0 no-repeat fixed; min-height: 500px; 
+  height: 500px; 
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  background-size: cover;
+}
+ 
+#otono article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}
+
+
+
+#invierno { 
+  background: url("../img/tres.jpg") center no-repeat; 
+  background-size: cover;
+  min-height: 500px;
+  height: 800px; 
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+ 
+#invierno article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 60px; 
+  width: 100%; 
+}
+
+#cuatro { 
+background: url("../img/dos.jpg") bottom no-repeat fixed; 
+min-height: 200px; 
+  height: 500px; 
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+
+  
+}
+ 
+#cuatro article { 
+  height: 58px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}
+
+
+#footer {
+	background-color: #000;
+	height: 100px;
+}
+
+h1 {
+	font-family: 'Abel', sans-serif;
+	font-size: 6em;
+text-shadow: 1px 2px 7px rgba(0, 9, 0, 0.36);
+	color: #fff;
+}
+
+
+h1.fin {
+	font-family: 'Tangerine', cursive;
+  color: #fff;
+	text-shadow: 1px 2px 7px rgba(0, 9, 0, 0.36);
+}
+
+.color {
+	color: #fff;
+	text-shadow: 1px 2px 7px rgba(0, 9, 0, 0.36);
+}
+
