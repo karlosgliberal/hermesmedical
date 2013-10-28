@@ -1,68 +1,141 @@
-<!DOCTYPE html>
-<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
-
+<!DOCTYPE HTML>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
 <head>
-	<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Foundation 4</title>
-
-  <link href='http://fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/foundation.css">
-  <link rel="stylesheet" href="css/style.css" type="text/css">	
-  
-
-  <script src="js/vendor/custom.modernizr.js"></script>
-
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
+	<title>Hermes medical</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<script type="text/javascript" src="//use.typekit.net/zlh2weq.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<!-- <link rel="stylesheet" href="css/style.min.css" type="text/css" media="screen"> -->
+	<!--[if IE]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
-<body class="simple-demo">
 
-			<div id="examples-pin">
-				<div id="pin-frame-pin" class="pin-frame"><h2>Pin It</h2></div>
-				<div id="pin-frame-slide" class="pin-frame"><h2>Slide It</h2></div>
-				<div id="pin-frame-wipe" class="pin-frame"><h2>Wipe It</h2></div>
-				<div id="pin-frame-bounce" class="pin-frame"><h2>Bounce It</h2></div>
-				<div id="pin-frame-color" class="pin-frame"><h2>Color It</h2></div>
-				<div id="pin-frame-unpin" class="pin-frame"><h2>Unpin It</h2></div>
+<body>
+
+	<div class="menu">
+		<div class="container clearfix">
+
+			<div data-slide="1" id="logo" class="grid_3">
+				<img src="images/logo.png">
 			</div>
 
-	<div id="slide1">
-		<div class="row">
-			<div class="large-12 columns">
-				<h2 id="fade-it">Esto es un h2</h2>
+			<div id="nav" class="grid_9 omega">
+				<ul class="navigation">
+					<li data-slide="2">Investigación</li>
+					<li data-slide="3">Desarrollo</li>
+					<li data-slide="4">Identificación</li>
+					<li data-slide="5">Conceptos</li>
+					<li data-slide="6">Nosotros</li>
+				</ul>
 			</div>
-			<div class="large-12 columns">
-				<h2 id="scale-it">Yo me hago grande</h2>
-			</div>
+
 		</div>
 	</div>
 
 
-  <script>
-  document.write('<script src=' +
-  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
-  '.js><\/script>')
-  </script>
- 
+	<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
 
-    <script type="text/javascript" src="js/TweenMax.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  	<script>window.jQuery || document.write('<script src="_/js/jquery-1.9.1.min.js"><\/script>')</script>
+			<div id="content" class="grid_7">
+				<h1>Hermes medical</h1>
+				<h2>medical engineering</h2>
+				<p>Esto es un parrafo </p>
+				<p>Don't forget to follow me!</p>
+			</div>
 
-  	<script src="js/jquery.superscrollorama.js"></script>
-	<script>
-		$(document).ready(function() {
-			var controller = $.superscrollorama();
-			// individual element tween examples
-			controller.addTween('#fade-it', TweenMax.from( $('#fade-it'), .5, {css:{opacity: 0}}));
-			controller.addTween('#fly-it', TweenMax.from( $('#fly-it'), .25, {css:{right:'1000px'}, ease:Quad.easeInOut}));
-			controller.addTween('#spin-it', TweenMax.from( $('#spin-it'), .25, {css:{opacity:0, rotation: 720}, ease:Quad.easeOut}));
-			controller.addTween('#scale-it', TweenMax.fromTo( $('#scale-it'), .25, {css:{opacity:0, fontSize:'20px'}, immediateRender:true, ease:Quad.easeInOut}, {css:{opacity:1, fontSize:'240px'}, ease:Quad.easeInOut}));
-			controller.addTween('#smush-it', TweenMax.fromTo( $('#smush-it'), .25, {css:{opacity:0, 'letter-spacing':'30px'}, immediateRender:true, ease:Quad.easeInOut}, {css:{opacity:1, 'letter-spacing':'-10px'}, ease:Quad.easeInOut}), 0, 100); // 100 px offset for better timing
-		});
-	</script>
-	  <script>
-    $(document).foundation();
-  </script>
+
+		</div>
+	</div>
+
+
+
+	<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+
+			<div id="content" class="grid_12">
+				<h1>Investigación</h1>
+				<h2>Hendrerit sem a nunc ullamcorper rhoncus. In quis enim vel risus </h2>
+			</div>
+
+		</div>
+	</div>
+
+
+	<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+
+			<div id="content" class="grid_12">
+				<h1>Desarrollo</h1>
+				<h2>Hendrerit sem a nunc ullamcorper rhoncus. In quis enim vel risus </h2>
+			</div>
+			<div id="test" class="grid_12">Esto es un grid de 12</div>
+			<div id="test" class="grid_12">Esto es un grid de 12</div>
+			<div id="test" class="grid_12">Esto es un grid de 12</div>
+
+		</div>
+	</div>
+	<!-- Concepto background img -->
+<div class="slide" id="slide-a">
+	<div id="bck" class="grid_12">
+		<img class="hidden" src="images/vap1.jpg"/>
+		<img class="hidden" src="images/vap2.jpg"/>
+		<img class="hidden" src="images/vap3.jpg"/>
+		<img src="images/vap3.jpg" id="animation" />
+		<div id="bottommark"></div>
+	</div>
+</div>
+<!-- Fin concepto -->
+
+	<div class="slide" id="slide6" data-slide="6" data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+
+			<div id="content" class="grid_12">
+				<h1>Identificación</h1>
+				<h2>Hendrerit sem a nunc ullamcorper rhoncus. In quis enim vel risus </h2>
+			</div>
+
+		</div>
+	</div>
+
+
+<div class="slide" id="slide5" data-slide="5" data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+
+			<div id="content" class="grid_12">
+				<h1>Concepto</h1>
+				<h2>Hendrerit sem a nunc ullamcorper rhoncus. In quis enim vel risus </h2>
+			</div>
+			<div id="test" class="grid_12">Esto es un grid de 12</div>
+		</div>
+	</div>
+
+
+	<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+
+			<div id="content" class="grid_12">
+				<h1>Nosotros</h1>
+				<h2>Hermes medical company</h2> 
+				<p>Don't forget to follow me!</p>
+				<p><a href="https://twitter.com/Jalxob" target="_blank"><img src="images/twitter.png"></a> <a href="http://dribbble.com/jalxob" target="_blank"><img src="images/dribbble.png"></a></p>
+			</div>
+
+		</div>
+	</div>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bck.js"></script>
+	<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+	<script type="text/javascript" src="js/waypoints.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<!-- <script type="text/javascript" src="js/scripts.min.js"></script> -->
 </body>
 </html>
