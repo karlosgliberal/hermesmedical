@@ -25,12 +25,18 @@ a:visited {
 
 
 h1 {
-  font-family: "freight-sans-pro",sans-serif;
-font-style: normal;
+   font-family: "omnes-pro";
+font-style: bold;
 font-weight: 300;
 font-size: 3.8em;
+text-align: center;
+
   }
 
+
+h1 {
+    margin: 0.5em 0;
+}
 
 /* Navigation */
 
@@ -48,7 +54,7 @@ font-size: 3.8em;
 }
 #nav {
 	text-align: right;
-	margin: 30px 0 0 0;
+	margin: 22px 0 0 0;
 }
 .navigation{
 	float: right;
@@ -57,7 +63,7 @@ font-size: 3.8em;
 }
 .navigation li{
 	float: left;
-	padding:0 0 0 50px;
+	padding:0 0 0 20px;
 }
 .navigation li:hover{
 	cursor:pointer;
@@ -89,6 +95,8 @@ font-size: 3.8em;
 
 #slide1{
 	background-color:#F2F2F2;
+	background-image:url('../images/uno.png');
+	background-position: center;
 }
 
 #slide1 h2 {
@@ -97,6 +105,7 @@ font-size: 3.8em;
 	line-height: 0px;
 	padding-bottom:20px;
 	font-weight: 400;
+	text-align: center;
 }
 
 
@@ -105,14 +114,15 @@ font-size: 3.8em;
 /* Slide 2 */ 
 
 #slide2{
-	background-image:url('../images/p1.jpg');
+	background-image:url('../images/identificacion.jpg');
 	color:#ffffff;
 	background-size: cover;
-	height: 160px;
-    padding: 64px 0;
+/*	height: 400px;
+    padding: 64px 0;*/
 }
 #slide2 h1 {
 	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.96);
+	margin: 0.5em 0;
 }
 
 #slide2 h2 {
@@ -123,9 +133,22 @@ font-size: 3.8em;
 	font-weight: 400;
 }
 
+
+
+
+#slide3 {
+	color:#fff;
+	height: 400px;
+    padding: 64px 0;
+    background-color: #0E83CD;
+    background-image:url('../images/requerimientos.png');
+	color:#ffffff;
+	background-position: center no-repeat;
+}
+
 /* Slide 6 */ 
 
-#slide6{
+#slide7{
 	background-image:url('../images/p1.jpg');
 	color:#ffffff;
 	background-size: cover;
@@ -172,8 +195,9 @@ font-size: 3.8em;
 #slide-a{
 background-color: #fff;
 
-	 height: 600px;
+	 height: 300px;
     padding: 0;
+      padding: 0 0 100px;
 }
 
 #slide-a h2 {
@@ -185,13 +209,13 @@ background-color: #fff;
 }
 
 
-
+.im {
+	text-align: center;
+}
 
 /* Slide 3 */ 
 
-#slide3{
-	background-color:#ffffff;
-}
+
 
 #slide3 h2 {
 	font-size: 2em;
@@ -213,10 +237,12 @@ background-color: #fff;
 
 /* Slide 4 */
 
-#slide4{
+#slide6{
 background-color: #0E83CD;
 color:#ffffff;
-
+background-image: url("../images/pruebas.jpg");
+background-size: cover;
+background-position: center;
 }
 
 #slide4 h2 {
@@ -229,7 +255,13 @@ color:#ffffff;
 
 
 
-
+.aa {
+	width: 2px;
+	height: 40px;
+	background-color: #fff;
+	position: relative;
+	text-align: center;
+}
 
 /* Tablet */
 @media screen and (max-width: 1024px) {
@@ -325,6 +357,7 @@ color:#ffffff;
 background-repeat: no-repeat;
 text-align: center;
 margin: 0 auto;
+width: 300px;
 }
 
 
@@ -348,12 +381,11 @@ margin: 0 auto;
 }
 
 
-
-
-
-
-
-
+.slide p {
+	text-align: center;
+	font-size: 1.4em;
+	
+}
 
 
 
@@ -396,6 +428,7 @@ margin: 0 auto;
 
 #slide1 h1 {
 	line-height: 1em;
+
 }
 #slide1 h2 {
 	line-height: 1em;
