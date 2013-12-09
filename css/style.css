@@ -7,6 +7,19 @@ body {
 	color: #8a8683;
 	background-color:#ffffff;
 }
+
+#unoo {
+	background-color: "red"
+}
+
+#doss {
+	background-color: "black"
+}
+
+#tress {
+	background-color: "green"
+}
+
 img {
 	max-width: 100%;
 }
