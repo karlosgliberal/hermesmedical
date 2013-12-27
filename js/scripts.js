@@ -1,7 +1,9 @@
+
 jQuery(document).ready(function ($) {
-    $("a.youtube").YouTubePopup({ hideTitleBar: true });
-    
+
+
     $(window).stellar();
+
     var links = $('.navigation').find('li');
     slide = $('.slide');
     button = $('.button');
@@ -23,7 +25,7 @@ jQuery(document).ready(function ($) {
     });
  
     mywindow.scroll(function () {
-        if (mywindow.scrollTop() == 0) { hideTitleBar: true }{
+        if (mywindow.scrollTop() == 0) {
             $('.navigation li[data-slide="1"]').addClass('active');
             $('.navigation li[data-slide="2"]').removeClass('active');
         }
