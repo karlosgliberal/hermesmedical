@@ -520,6 +520,17 @@ p.pre {
     width: 30px;
 }
 
+#mutavault {
+	height: 800px;
+	width: 3px;
+	background-color: #fff;
+	position: absolute;
+	left: 10px;
+	top: 40px;
+}
+
+
+
 /*Images cross*/
 
 #crossfade {
