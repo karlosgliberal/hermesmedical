@@ -521,14 +521,25 @@ p.pre {
 }
 
 #mutavault {
-	height: 800px;
-	width: 3px;
-	background-color: #fff;
-	position: absolute;
-	left: 10px;
-	top: 40px;
+  border-right: 2px dashed #888888;
+    height: 4189px;
+    left: 52px;
+    position: absolute;
+    top: 40px;
+    z-index: 1;
 }
 
+
+.d-consulting {
+height: 30px;
+width: 30px;
+-moz-border-radius: 35px;
+border-radius: 35px;
+background-color: #fff;
+position: relative;
+top: 10px;
+left: 100px:;
+}
 
 
 /*Images cross*/

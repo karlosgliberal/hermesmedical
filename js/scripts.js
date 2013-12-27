@@ -1,6 +1,6 @@
 jQuery(document).ready(function ($) {
     $("a.youtube").YouTubePopup({ hideTitleBar: true });
-    /*
+    
     $(window).stellar();
     var links = $('.navigation').find('li');
     slide = $('.slide');
@@ -49,6 +49,6 @@ jQuery(document).ready(function ($) {
         goToByScroll(dataslide);
 
     });
-*/
+
 
 });
