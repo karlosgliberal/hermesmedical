@@ -1,4 +1,5 @@
  $(document).ready(function(){
+  /*
     var offset2 = $(document).height();
     //tambaño en pixels entre top y la imagen
     var lineHF = offset2 - $("#bottommark").position().top; 
@@ -33,5 +34,6 @@
             //     $("#animation").attr("src", "images/vap3.png");
             // }
         });
+ */
     });
 
