@@ -267,6 +267,7 @@ font-size: 1.3em;
 
 h1.design {
 color: #2D95C9;
+font-size: 6em;
 }
 
 
@@ -696,6 +697,61 @@ left: 100px:;
 
 }
 
+
+
+#slide9 {
+background: url(../images/bg-m1.jpg);
+background-size: cover;
+color: #FFFFFF;	
+}
+
+
+.about-img {
+	text-align: center;
+}
+
+.about-img img {
+    border: 12px solid #2AA6C2;
+    border-radius: 100px;
+    text-align: center;
+    width: 150px;
+}
+
+
+.slide p.texto-about {
+	font-size: 1.4em;
+}
+
+span.cur {
+font-style: italic;
+font-size: 0.6em !important;
+}
+
+
+.iconos {
+	text-align: center;
+}
+
+.iconos img {
+	margin: 0px 10px
+}
+
+
+#footer {
+	
+	height: 30px;
+}
+
+.flex {
+	background: url("../images/tri.png") no-repeat;
+	background-position: top;
+}
+
+
+.texto-footer {
+	font-size: 0.7em;
+	text-align: center;
+}
 /*body, html {height: 1000px; margin: 0;}*/
 
 
