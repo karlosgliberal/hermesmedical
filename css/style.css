@@ -521,15 +521,6 @@ p.pre {
     width: 30px;
 }
 
-/*#mutavault {
-
-    height: 4189px;
-    left: 52px;
-    position: absolute;
-    top: 40px;
-    z-index: 1;
-    background: url(../images/down1.png);
-}*/
 
 
 .linea{
@@ -542,17 +533,11 @@ background: url(../images/down1.png);
 
 }
 
+.wrapper-separador{
+	margin: 1% 19%;
+    text-align: center;
+} 
 
-/*.d-consulting {
-height: 30px;
-width: 30px;
--moz-border-radius: 35px;
-border-radius: 35px;
-background-color: #fff;
-position: relative;
-top: 10px;
-left: 100px:;
-}*/
 
 
 /*Images cross*/
@@ -655,12 +640,22 @@ left: 100px:;
     100% { opacity: 0 }
 }
 
+.separador {
 
+	border-top: 1px solid #dadada;
+}
 
 .design-img img {
 	border: 1px solid #dadada;
 	  background-color: #FFFFFF;
 
+}
+
+
+.nosotros {
+	color: #DDD;
+    font-size: 0.9em !important;
+    font-style: italic;
 }
 
 
@@ -722,9 +717,9 @@ color: #FFFFFF;
 	font-size: 1.4em;
 }
 
-span.cur {
+.cita {
 font-style: italic;
-font-size: 0.6em !important;
+font-size: 0.8em !important;
 }
 
 
