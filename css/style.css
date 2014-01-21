@@ -108,7 +108,7 @@ h1 {
 	background-color:#F2F2F2;
 	background-image:url('../images/uno.png');
 	background-position: center;
-	padding: 100px 0 180px;
+	padding: 100px 0 100px;
 }
 
 
@@ -242,10 +242,11 @@ h1 {
 
 
 #slide4 {
-	 background-image: url("../images/bd.png");
+	/* background-image: url("../images/bd.png");*/
     background-position: center top;
     background-size: cover;
     padding:140px 0;
+    background-color: #fff;
 }
 
 /* Slide 4 */
@@ -307,7 +308,7 @@ p.logos {
 }
 
 #slide7.slide {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .industria {
@@ -774,6 +775,7 @@ padding: 14px 10px;
 background: url(../images/bg-m1.jpg);
 background-size: cover;
 color: #FFFFFF;	
+padding: 50px 0;
 }
 
 
@@ -792,6 +794,7 @@ color: #FFFFFF;
 
 .slide p.texto-about {
 	font-size: 1.4em;
+	 line-height: 1.4em;
 }
 
 .cita {
