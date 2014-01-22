@@ -218,7 +218,7 @@ h1 {
 
 .im {
 	text-align: center;
-	
+	padding: 5px;
 }
 
 /* Slide 3 */ 
@@ -733,7 +733,9 @@ padding: 14px 10px;
     margin: 0 45%;
 }
 
-
+.lb-container img {
+	max-width: none !important;
+}
 
 
 @media screen and (max-width: 830px) {
@@ -775,7 +777,6 @@ padding: 14px 10px;
 background: url(../images/bg-m1.jpg);
 background-size: cover;
 color: #FFFFFF;	
-padding: 50px 0;
 }
 
 
@@ -827,6 +828,10 @@ font-size: 0.8em !important;
 	font-size: 0.7em;
 	text-align: center;
 }
+
+
+
+
 /*body, html {height: 1000px; margin: 0;}*/
 
 
