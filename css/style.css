@@ -156,7 +156,7 @@ h1 {
     background-position: center bottom;
     background-size: cover;
     color: #FFFFFF;
-    padding:140px 0;
+  /*  padding:140px 0;*/
 
 
 }
@@ -309,6 +309,7 @@ p.logos {
 
 #slide7.slide {
     padding-top: 50px;
+    padding-bottom: 0;
 }
 
 .industria {
@@ -862,7 +863,64 @@ padding: 40px 0;
 	text-align: center;
 }
 
+
+/*.market-con {
+	 border: 5px solid #2AA6C2;
+    border-radius: 100px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    font-size: 3em;
+}*/
+
+.market-con {
+	display: table;
+    margin: 0 auto 15px;
+    position: relative;
+}
+
+
+.icn {
+	border: 4px solid #2AA6C2;
+    border-radius: 50%;
+    display: table-cell;
+    font-size: 55px;
+    height: 150px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 150px;
+}
+
+.markets-texto {
+	font-size: 2em !important;
+	margin-bottom: 2em;
+}
+
+
+
+
+
+
+
+
 /*body, html {height: 1000px; margin: 0;}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Mobile */
