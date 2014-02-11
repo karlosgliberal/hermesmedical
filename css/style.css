@@ -308,7 +308,7 @@ p.logos {
 }
 
 #slide7.slide {
-    padding: 50px 0;
+    padding-top: 50px;
 }
 
 .industria {
@@ -829,8 +829,38 @@ font-size: 0.8em !important;
 	text-align: center;
 }
 
+.grid_img{
+	float: left;
+	display: block;
+	width: 15%;
+} 
+
+.img-container {
+	height: 100px;
+}
+
+#industria-slide {
+background-color: #43879E;
+padding: 40px 0;
+   background-image: url("../images/p3.jpg");
+    background-position: bottom;
+    background-size: cover;
+    color: #FFFFFF;
+   
+}
+
+#markets-slide {
+	padding: 40px 0;
+}
+
+#markets-slide p {
+	font-size: 1em;
+}
 
 
+#markets-slide h3{
+	text-align: center;
+}
 
 /*body, html {height: 1000px; margin: 0;}*/
 
@@ -842,9 +872,6 @@ font-size: 0.8em !important;
 h1.hermes { 
     font-size: 3em; 
 }
-
-
-
 
 
 #logo {
