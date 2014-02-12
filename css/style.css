@@ -378,7 +378,7 @@ margin-bottom: 14px;
 
 .navigation li{
 	float: left;
-	width:25%;
+	width:20%;
 	padding:0;
 }
 
@@ -557,8 +557,8 @@ background: url(../images/down1.png);
 
 
 #crossfade > img { 
-    width: 600px;
-    height: 300px;
+/*    width: 600px;
+    height: 300px;*/
     position: absolute;
     left: 0px;
     color: transparent;
