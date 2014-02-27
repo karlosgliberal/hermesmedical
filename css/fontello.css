@@ -580,4 +580,13 @@
 .icon-s-soundcloud:before { content: '\f348'; } /* '' */
 .icon-s-behance:before { content: '\f34e'; } /* '' */
 
+
+.plus {
+  font-size: 65px;
+}
+
+
+
+
+
 .icon-circle-empty:before { content: '\e800'; } /* '' */
